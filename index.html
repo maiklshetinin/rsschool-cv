@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/avatar.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>cv</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main-container">
+                <section class="section">
+                    <div class="section-profile">
+                        <h2>Ava</h2>
+                        <img src="./assets/avatar.jpg" alt="">
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section-profile-title">
+                        <h1 class="section-title-profile">Mikhail Shchetinin</h1>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-link-mail"> sh_chetinin@mail.ru</li>
+                        <li class="contacts-link-github"> maiklshetinin</li>
+                        <li class="contacts-link-telegramm">+79616496118</li>
+                    </ul>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p class="summary">My aim it to become a good strong developer in one year period.
+                        Because I’m new to this area, I want to learn basic technologies of front end development, main
+                        tools and approaches.
+                        As web development is one the perspective area of software development,
+                        I’d like to understend how to build web application using modern aproaches and frameworks.
+                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills">
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                    <pre>
+                    <code>
+function vowelOne(s){
+    let str=s.toLowerCase()
+    result=""
+    for(i of str){
+        if("aouei".includes(i))result+=1
+        else result+=0
+    }
+    return(result)
+}
+            </code></pre>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section-title">English</h2>
+                    <p class="summary">A1</p>  
+                </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p class="summary">SSTU Saratov</p>             
+            </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-container">
+
+                <a href="https://github.com/maiklshetinin?tab=repositories"><span>2022</span> maiklshetinin</a>
+                <a href="https://rs.school/js/"><img src="./rs_school_js.svg" alt="rs"></a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
