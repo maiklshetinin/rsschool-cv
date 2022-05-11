@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -35,7 +37,7 @@ body {
 }
 
 .section-profile img {
-    width: 200px;
+    width: 150px;
     border: 1px solid #d8d8d8;
     border-radius: 100px;
 }
@@ -203,8 +205,6 @@ body {
 
 }
 
-
-
 .footer {
     background-color: #faf9f9;
     border-top: 1px solid #d8d8d8;
@@ -215,8 +215,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .footer a {
     text-decoration: none;
