@@ -12,24 +12,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
     <title>cv</title>
 </head>
-
 <body>
-    <header class="header">
-        <div class="container">
+    <div class="container">
+        <header class="header">
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                     <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
                     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                 </ul>
             </nav>
-        </div>
-    </header>
-    <main class="main">
-        <div class="container">
+
+        </header>
+        <main class="main">
             <div class="main-container">
                 <section class="section">
                     <div class="section-profile">
@@ -45,7 +43,7 @@
                 <section class="section" id="contacts">
                     <h2 class="section-title">Contacts</h2>
                     <ul class="contacts-list">
-                        <li class="contacts-link-mail"> sh_chetinin@mail.ru</li>
+                        <li class="contacts-link-mail">maiklshetinin@gmail.com</li>
                         <li class="contacts-link-github"> maiklshetinin</li>
                         <li class="contacts-link-telegramm">+79616496118</li>
                     </ul>
@@ -68,44 +66,40 @@
                         <li>CSS</li>
                     </ul>
                 </section>
-                <section class="section" id="code">
-                    <h2 class="section-title">Code</h2>
-                    <pre>
-                    <code>
-function vowelOne(s){
-    let str=s.toLowerCase()
-    result=""
-    for(i of str){
-        if("aouei".includes(i))result+=1
-        else result+=0
-    }
-    return(result)
-}
-            </code></pre>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class='projects'>
+                        <li><a href="https://maiklshetinin.github.io/rs-school-projects/random-game">random-game</a>
+                        </li>
+                        <li><a href="https://maiklshetinin.github.io/rs-school-projects/portfolio">portfolio</a></li>
+                        <li><a href="https://maiklshetinin.github.io/rs-school-projects/movie-app">movie-app</a></li>
+                        <li><a href="https://maiklshetinin.github.io/rs-school-projects/custom-video">custom-video</a>
+                        </li>
+                        <li><a href="https://maiklshetinin.github.io/rs-school-projects/shelter/pages/main">shelter</a>
+                        </li>
+                        <li><a
+                                href="https://maiklshetinin.github.io/virtual-keyboard/virtual-keyboard">virtual-keyboard</a>
+                        </li>
+                    </ul>
                 </section>
                 <section class="section" id="english">
                     <h2 class="section-title">English</h2>
-                    <p class="summary">A1</p>  
+                    <p class="summary">A1</p>
                 </section>
-            <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
-                <p class="summary">SSTU Saratov</p>             
-            </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p class="summary">SSTU Saratov</p>
+                </section>
             </div>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-
+        </main>
+        <footer class="footer">
             <div class="footer-container">
 
                 <a href="https://github.com/maiklshetinin?tab=repositories"><span>2022</span> maiklshetinin</a>
                 <a href="https://rs.school/js/"><img src="./rs_school_js.svg" alt="rs"></a>
             </div>
-
-        </div>
-    </footer>
-
+        </footer>
+    </div>
 </body>
 
 </html>
