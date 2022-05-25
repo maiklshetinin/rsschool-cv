@@ -30,6 +30,7 @@ body {
     border-bottom: 1px solid #d8d8d8;
 }
 
+
 .section-profile {
     display: flex;
     justify-content: center;
@@ -83,20 +84,22 @@ body {
 .section {
     padding: 10px;
     width: 50%;
-
 }
 
 .contacts-list li {
+    margin-left: 10px;
     list-style: none;
     color: #969696;
 }
 
 .skills {
+    margin-left: 10px;
     list-style: none;
     color: #969696;
 
 }
 .projects {
+    margin-left: 10px;
     list-style: none;
     color: #969696;
 }
@@ -108,9 +111,8 @@ body {
     text-decoration: none;
     color: #170ce2;
 }
-
-.summary {
-    color: #969696;
+.summary{
+    margin-left: 10px;
 }
 
 
