@@ -1,4 +1,5 @@
 # rsschool-cv
+### self-intruduction https://youtu.be/xGNav6xA5eY
  ### Shchetinin Mikhail
  #### Aims:
   My aim it to become a good strong developer in one year period.
