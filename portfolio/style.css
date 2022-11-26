@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .container {
+  margin: auto;
+ margin-top: 20px;
+
+} */
+
+.header {
+  padding: 20px 150px 20px 150px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.header li span {
+  font-weight: 700;
+}
+
+.name h1 {
+  font-size: 50px;
+  letter-spacing: 0.05rem;
+}
+
+.name h3 {
+  font-size: 25px;
+  text-align: right;
+  letter-spacing: 0.1rem;
+}
+
+.section_title {
+  padding: 0 150px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: grey;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.section{
+
+}
+
+.skills{
+  padding: 20px 150px;
+  display: flex;
+  gap: 70px;
+}
+.skills h4{
+ font-size: 20px;
+font-weight: 700;
+line-height: 50px;
+}
+.skills li{
+line-height: 21px;
+font-weight: 400;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.languages{
+  margin-left: auto;
+}
+.language{
+  margin-bottom: 15px;
+}
+.language h5{
+  line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.language_progress{
+  width: 200px;
+  height: 14px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background: #535353;
+}
+.english{
+    background: linear-gradient(to right, #535353 0%, #535353 40%, #eeeeee 20%, #eeeeee 100%);
+}
