@@ -8,12 +8,12 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 .container {
   padding-top: 20px;
-  max-width: 1080px;
+  max-width: 1020px;
   margin: auto;
   box-shadow: 0px 0px 4px 1px rgba(34, 60, 80, 0.59);
 
@@ -108,7 +108,7 @@ li {
 }
 
 
-.section_education_item{
+.section_education_item {
   padding: 10px 0;
 }
 
@@ -127,3 +127,40 @@ li {
   color: rgb(188, 185, 185);
   letter-spacing: 0.05rem;
 }
+
+.section_projects_container {
+  display: flex;
+  /* gap: 110px; */
+  padding: 20px 70px;
+}
+
+.section_projects_container h3 {
+  padding: 5px 0;
+  font-size: 25px;
+}
+
+.section_projects_container h5 {
+  padding: 5px 0;
+  font-size: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  color: rgb(188, 185, 185);
+}
+
+.section_projects_container a {
+  padding: 5px 0;
+}
+
+.section_projects_item{
+width:440px;
+}
+.grey{
+  background-color: #ececec;
+}
+
+/* .projects{
+  margin-bottom: 20px;
+} */
+
+.section_projects_container_title {}
