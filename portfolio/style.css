@@ -56,8 +56,8 @@ li {
   font-size: 20px;
 }
 
-.profile{
-padding: 10px 70px;
+.profile {
+  padding: 10px 70px;
 }
 
 .skills {
@@ -152,10 +152,11 @@ padding: 10px 70px;
   padding: 5px 0;
 }
 
-.section_projects_item{
-width:440px;
+.section_projects_item {
+  width: 440px;
 }
-.grey{
+
+.grey {
   background-color: #ececec;
 }
 
