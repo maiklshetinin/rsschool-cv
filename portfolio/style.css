@@ -162,8 +162,9 @@ li {
   background-color: #ececec;
 }
 
-/* .projects{
-  margin-bottom: 20px;
-} */
 
-.section_projects_container_title {}
+.work_experience{
+font-size: 14px;
+padding: 0 70px;
+font-weight: 400;
+}
