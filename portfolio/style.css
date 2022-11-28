@@ -45,6 +45,10 @@ li {
   letter-spacing: 0.1rem;
 }
 
+.profile {
+  padding: 10px 70px;
+}
+
 .section_title {
   padding: 0 70px;
   display: flex;
@@ -56,9 +60,7 @@ li {
   font-size: 20px;
 }
 
-.profile {
-  padding: 10px 70px;
-}
+
 
 .skills {
   padding: 20px 70px;
